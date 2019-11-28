@@ -1,14 +1,14 @@
 //Array.reduce array icerisindeki deyisenleri bir deyisene cevirmek ucun muxtelif emeliyyatlara imkan verir.
-///////////////////////////////////Misal 1
-// const data = [2, 4, 5, 13];
+/////////////////////////////////Misal 1
+const data = [2, 4, 5, 13];
 
-// const reducer = (resultParam, item) => {
-//     return resultParam + item;
-// }
+const reducer = (resultParam, item) => {
+    return resultParam + item;
+}
 
-// const sum = data.reduce(reducer, 0);
+const sum = data.reduce(reducer, 0);
 
-// console.log("The data is: ", sum);
+console.log("The data is: ", sum);
 
 
 /////////////////////////////////////Misal 2

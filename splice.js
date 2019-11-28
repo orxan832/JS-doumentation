@@ -4,10 +4,10 @@ const months = ["Yanvar", "Mart", "Aprel"];
 //deyerleri sile bilir. funksiya icerisindeki 1-ci deyisen arrayin hansi
 //indexine deyiseni elave etmek istediyimizi bildirir. 2-ci deyisen ise
 //elave etdiyimiz deyisenden sonra nece deyiseni silmek istediyimizi teyin edir.
-months.splice(2, 1, "Fevral");
-//burda 1 yerine sifir yazsaq hec bir deyisen silinmeyecek. eyni zamanda fevral
-//yerine bir sey yazmasaq da yalniz silme islemi varsa onu yerine yetirecek.
-
+months.splice(1, 0, "Fevral");
+//burda 1 yerine sifir yazsaq hec bir deyisen silinmeyecek.
+//eyni zamanda "Fevral" yerine bir sey yazmasaq da yalniz silme islemi varsa onu yerine yetirecek.
+//output: "Yanvar", "Fevral", "Mart", "Fevral";
 console.log(months);
 
 
